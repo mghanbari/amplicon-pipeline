@@ -12,7 +12,7 @@ language_info:
   version: 3.2.4
 ---
 
-# Using DADA2 for QIIME using the Moving Pictures of the Human Microbiome
+# Applying DADA2 to the QIIME Illumina Overview Tutorial dataset
 This tutorial covers processing raw sequence data with [DADA2](https://github.com/benjjneb/dada2) for use with QIIME using Illumina sequencing data. This tutorial is intended to be a quick to run, and as such, uses only a subset of a full Illumina Genome Analyzer II (GAIIx) run. This tutorial is only intended to illustrate the workflow necessary to generate an analagous table to the OTU table typically used in QIIME analyses. For a more in depth use of QIIME please refer to the [other tutorials](http://qiime.org/tutorials/#). Additionally it is recommended that you first follow the official [DADA2 tutorial](http://benjjneb.github.io/dada2/tutorial.html) prior to running this tutorial as this tutorial is intended to provide only the minimum workflow commands to create a biom table for use with QIIME.
 
 The data used in this tutorial are derived from the Moving Pictures of the Human Microbiome study, where two human subjects collected daily samples from four body sites: the tongue, the palm of the left hand, the palm of the right hand, and the gut (via fecal samples obtained by swapping used toilet paper). These data were sequenced using the barcoded amplicon sequencing protocol described in Global patterns of 16S rRNA diversity at a depth of millions of sequences per sample. A more recent version of this protocol that can be used with the Illumina HiSeq 2000 and MiSeq can be found [here](http://www.ncbi.nlm.nih.gov/pubmed/22402401).
@@ -459,9 +459,9 @@ Sample 65 - 4792 reads in 791 unique sequences.
 Sample 66 - 4792 reads in 791 unique sequences.
 Sample 67 - 5434 reads in 990 unique sequences.
 Sample 68 - 5434 reads in 990 unique sequences.
-   selfConsist step 2 
-   selfConsist step 3 
-   selfConsist step 4 
+   selfConsist step 2
+   selfConsist step 3
+   selfConsist step 4
 
 
 Convergence after  4  rounds.
