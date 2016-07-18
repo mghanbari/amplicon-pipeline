@@ -40,7 +40,7 @@ Note: If you received the sequence data where each sample is represented in a un
 ```bash
 cd moving_pictures_tutorial-1.9.0  
 
-split_libraries_fastq.py -o slout/ -i illumina/forward_reads.fastq.gz -b illumina/barcodes.fastq.gz -m illumina/map.tsv --store_demultiplexed_fastq -r 999 -n 999 -q 0 -p 0.000001
+split_libraries_fastq.py -o slout/ -i illumina/forward_reads.fastq.gz -b illumina/barcodes.fastq.gz -m illumina/map.tsv --store_demultiplexed_fastq -n 999 -q 0
 ```
 
 ### Split sequence files on a per sample basis
